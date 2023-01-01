@@ -7,15 +7,28 @@
 
 body{
     text-align: center;
+    background: url(../image/imgbackgroud_money.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 100px;
+
+}
+.copy{
+    margin-bottom: 50px;
 }
 h1{
     margin: 100px 0px ;
+    color: white;
 }
  h2{
     margin: 50px 0px;
+    color: white;
  }
  p{
     margin: 50px 0px;
+    color: white;
  }
  input{
     margin: 25px 0px;
@@ -27,9 +40,10 @@ h1{
     border: 1px solid black;
     outline: none;
  }
- button{
+ a{
     display: block;
     margin: 0px auto;
+    cursor: pointer ;
     width: 350px;
     height: 45px;
     background-color: green;
@@ -37,11 +51,10 @@ h1{
     border-radius: 10px 10px 10px 10px;
     border: none;
     box-shadow: 2px 3px 10px 0px black;
- }
- a{
     color: black;
     font-size: large;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    padding-top: 12px;
  }
